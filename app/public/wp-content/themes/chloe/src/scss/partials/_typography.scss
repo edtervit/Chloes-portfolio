@@ -1,0 +1,39 @@
+html {
+    font-size: 54%;
+
+    @include breakpoint-up(tablet-land) {
+        font-size: 56%;
+    }
+
+    @include breakpoint-up(laptop) {
+        font-size: 62.5%;
+    }
+}
+
+p {
+    // by default 1.6rem equals to 16px
+}
+
+h1 {
+    
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
